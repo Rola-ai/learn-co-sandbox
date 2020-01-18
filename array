@@ -1,0 +1,9 @@
+fruit_veg = ["potato", "grape", "sweetcorn", "banana", "pepper"]
+fruit_veg[1] = "apple"
+fruit_veg << "pear"
+fruit_veg.push("tomato", "lemon")
+fruit_veg.unshift("lime")
+fruit_veg.pop
+fruit_veg.shift
+print(fruit_veg.include?("sweetcorn"))
+print(fruit_veg) 
